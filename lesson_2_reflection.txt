@@ -3,8 +3,14 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repository, the git will create a .git folder inside a repository. This folder is where the git will keep all its tracking information. 
 We need to initialize the rpeository so that it can be a part of the git andd the git can than able to track the fies. 
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+Staging area, stages the files to include int he commit. It acts as an intermediate stage between the main working directory and the commit area. 
+It gives  the user, a freedom to choose. If he wants to commit all the changes altogether or only some of the changes of the some of the files. 
+
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
