@@ -15,10 +15,21 @@ It gives  the user, a freedom to choose. If he wants to commit all the changes a
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Staging area will hsow you the files , efore it will go to the actual commits. This way, you can make sure that not more than one file is going into the commit. You can verify staging area files before doing actual commit.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+It is specifically helping, when the project may take different directions. Especially, if you want to dod anything experimental with your  project. In that case, you can put the branch to have some temporary changes. 
+
+
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams help us in finding the commit list, branch wise. Also, it will show the commit list timeline wise. And also bifurcate it in timewise as well.
+It will be like a combined views. Two in one. Which will help us in debugging. 
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
