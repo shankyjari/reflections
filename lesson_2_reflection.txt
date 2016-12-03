@@ -34,5 +34,10 @@ It will be like a combined views. Two in one. Which will help us in debugging.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches would result in a single commit. This new commit will contain changes from both of the branches. 
+It will create new branch or will merge one branch into another, depepnds upon what user wants. 
+Representing it in the diagram, the way we do. WIll benefit us in visualizing the whole history of branches. 
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
