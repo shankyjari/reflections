@@ -22,12 +22,17 @@ Branches are used to diverge the development in a git. Like diverging frommain d
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+The benifit in this situation is that, at the time of commit,  git can compare the local copy with new commit. 
+And fortunately if no merge conflict happens. Git can merge it successfully. Instead, of accessing network, when network is not available.
+In which case, the merging will failed.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+I will choose another collobration tool. Probably like google doc or something else. 
+Maintaining whole  code base would  be difficult. However basic operations would become easier in google docs.
+But it is very difficult to maintain whole code using google docs as a repository. 
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
